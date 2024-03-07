@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+    
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <main>
+        <!-- section 1 -->
+        <section class="parOuImpar">
+            <h2 class="titulo">Adicione um numero para saber se é par ou ímpar</h2>
+            <input type="number" id="number" placeholder="ex: 10">
+            <br><br>
+            <button onclick="checkImparPar()">Verificar</button>
+            <p id="result"></p>
+        </section>
+        <!-- fim section 1 -->
+
+        <!-- section 2 -->
+        <section class="decrescente">
+            <h2 class="titulo">Digite 5 numeros para ordenar de forma decrescente</h2>
+            <input type="number" id="numero1" placeholder="Numero 1" required>
+            <br><br>
+            <input type="number" id="numero2" placeholder="Numero 2" required>
+            <br><br>
+            <input type="number" id="numero3" placeholder="Numero 3" required>
+            <br><br>
+            <input type="number" id="numero4" placeholder="Numero 4" required>
+            <br><br>
+            <input type="number" id="numero5" placeholder="Numero 5" required>
+            <br><br>
+
+            <button onclick="ordenar()">Ordenar</button>
+
+            <div id="resultado"></div>
+        </section>
+        <!-- fim section 2 -->
+        
+        <!-- section 3 -->
+        <section class="imc">
+            <h2 class="titulo">Informe sua altura e peso</h2>
+            <input type="number" id="altura" placeholder="ex: 1,80 Altura" required>
+            <br><br>
+            <input type="number" id="peso" placeholder="ex: 47,5 Peso" required> 
+            <br><br>
+
+            <button onclick="imc()">Verificar</button>
+
+            <p id="resultImc"></p>
+        </section>
+        <!-- fim section 3 -->
+
+        <!-- section 4 -->
+        <section class="triangulo">
+            <h2 class="titulo">Digite 3 valores para saber qual triangulo é</h2>
+            <input type="number" id="num1" placeholder="Lado 1">
+            <br><br>
+            <input type="number" id="num2" placeholder="Lado 2">
+            <br><br>
+            <input type="number" id="num3" placeholder="Lado 3">
+            <br><br>
+
+            <button onclick="triangulo()">Verificar</button>
+
+            <p id="resultTriangulo"></p>
+        </section>
+        <!-- fim section 4 -->
+
+    </main>
+    
+    <script src="assets/js/index.js"></script>
+</body>
+    <!-- Criado por Pierre Lins -->
+</html>
